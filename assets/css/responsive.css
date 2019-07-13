@@ -1,0 +1,79 @@
+/*******************************
+	All Responsive Code
+*******************************/
+/* Medium layout: 1200px, */
+
+@media only screen and (min-width:992px) and (max-width: 1200px) {
+.newsletter-form input[type="email"] {
+	width: 70%;
+	margin-right: 10px;
+}
+}
+
+/* Tablet layout: 768px, */
+@media only screen and (min-width:768px) and (max-width: 991px) {
+.menu li a {
+	padding: 2px 8px;
+}
+.box-btn {
+	padding: 6px 30px;
+	border-radius: 25px;
+	margin-top: 10px;
+}
+
+body {
+  font-size: 12px;
+}
+.services-title h2 {
+	font-size: 25px;
+}
+.single-services h3 {
+	font-size: 18px;
+	margin-top: 20px;
+}
+.left-content h2 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.left-content {
+	padding: 0;	
+}
+.single-team {
+	margin-bottom: 30px;
+}
+.single-clints img {
+	max-width: 100px;
+	max-height: 36px;
+}
+.single-clints {
+	margin-top: 40px;
+}
+.project-area h2 {
+	font-size: 25px;
+}
+.newsletter-form input[type="email"] {
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+.search-box {
+	display: none;
+}
+.mean-container a.meanmenu-reveal {
+	margin-top: -42px;
+}
+}
+/* Mobile layout: 320px, */
+@media only screen and (max-width:767px)  {
+.search-box{
+	display: none;
+}
+.mean-container a.meanmenu-reveal {
+	margin-top: -42px;
+}
+}
+
+/* wide mobile layout: 480px, */
+@media only screen and (min-width:480px) and (max-width: 767px) {
+
+}
